@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Inter;
+  /* background-color: rgb(18, 32, 51); */
+  background-color: rgb(28, 28, 28);
+}
+
+.header {
+  background-color: rgb(28, 28, 28);
+  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+}
+
+.nav-title {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: rgb(230, 83, 60);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 42px;
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.btn-transparent {
+  background-color: rgba(249, 245, 245, 0);
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 42px;
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-content {
+  margin-left: 100px;
+  margin-top: 20px;
+  max-width: 50%;
+}
+.banner-title {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.special-word {
+  font-family: "Dancing Script", cursive;
+}
+.section-description {
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.6rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.image-container > img {
+  width: 300px;
+  height: 445px;
+  margin-right: 200px;
+}
+
+.top-right-box {
+  position: absolute;
+  top: 220px; /* উপর থেকে কতটুকু নিচে থাকবে */
+  right: 160px; /* ডান দিক থেকে কতটুকু বামে থাকবে */
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.65);
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+}
+.quantity {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.bottom-left-box {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 440px; /* উপর থেকে কতটুকু নিচে থাকবে */
+  right: 430px; /* ডান দিক থেকে কতটুকু বামে থাকবে */
+  background: rgba(48, 48, 48, 0.54);
+  color: rgba(255, 255, 255);
+  padding: 10px 15px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+}
+
+.orrange-dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(230, 83, 60);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.quantify {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 900;
+}
+.small-text {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 8px;
+}
+.fitness {
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: rgb(28, 28, 28);
+}
+.section-title {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.fitness h1 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.fitness h3 {
+  text-align: center;
+}
+.habits-img-container {
+  display: flex;
+}
+.habits {
+  margin: 20px 50px;
+  max-width: 300px;
+}
+.habits img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.habit-title {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.habit-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.run {
+  width: 850px;
+  height: 300px;  
+  background: rgb(34, 34, 34);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  margin: 100px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.run h1{
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.run h3{
+    text-align: left;
+    padding-left: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.run button{
+    margin-left: 30px;
+
+}
+.run img {
+  width: 300px;
+  height: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 25px 10px;
+}
+.bmi{
+    background: rgb(34, 34, 34);
+}
+
