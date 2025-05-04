@@ -216,7 +216,7 @@ nav a {
 }
 .run {
   width: 850px;
-  height: 300px;  
+  height: 300px;
   background: rgb(34, 34, 34);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 18px;
@@ -224,21 +224,20 @@ nav a {
   display: flex;
   justify-content: space-between;
 }
-.run h1{
-    text-align: left;
-    padding-left: 30px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+.run h1 {
+  text-align: left;
+  padding-left: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
-.run h3{
-    text-align: left;
-    padding-left: 30px;
-    color: rgba(255, 255, 255, 0.5);
+.run h3 {
+  text-align: left;
+  padding-left: 30px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-.run button{
-    margin-left: 30px;
-
+.run button {
+  margin-left: 30px;
 }
 .run img {
   width: 300px;
@@ -247,7 +246,53 @@ nav a {
   border-radius: 15px;
   margin: 25px 10px;
 }
-.bmi{
-    background: rgb(34, 34, 34);
+.bmi {
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0px;
+  padding: 50px 0px;
+}
+.bmi-table {
+  padding-left: 200px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.bmi-calculator {
+  padding-right: 200px;
+}
+.bmi-table h1 {
+  text-align: left;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.bmi h1 {
+  font-size: 20px;
+  text-align: left;
 }
 
+table {
+  border-collapse: collapse;
+  color: rgb(255, 255, 255);
+  padding-left: 80px;
+  font-size: 12px;
+}
+th, td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  padding: 8px 10px;
+}
+input {
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 0px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 7px;
+  width: 220px;
+  height: 30px;
+}
+.special-field{
+    width: 454px;
+}
